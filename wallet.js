@@ -14,8 +14,10 @@ function updateHistory() {
       .map(function (item, index, list) {
         const transactionClass = item > 0 ? "deposit" : "withdraw";
         const transactionAmount = item > 0 ? `+$${item.toFixed(2)}` : `-$${Math.abs(item).toFixed(2)}`;
+
   
-        return `<p class="txn-list ${transactionClass}">Payment <span class="txn-amount">${transactionAmount}</span></p>`;
+        return `<p class="txn-list ${transactionClass}">${transactionClass.charAt(0).toUpperCase() + transactionClass.slice(1)} <span class="txn-amount">${transactionAmount}</span></p>`;
+
       })
       .join("");
   
