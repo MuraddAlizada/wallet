@@ -1,0 +1,95 @@
+
+.bdy {
+    /* background-color: aqua; */
+    background-color: #ef3f3f !important;
+}   
+
+.wallet-container { 
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));   
+    width: 320px;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 20px 0;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.page-title {   
+    text-align: left;
+}
+
+.user { 
+    float: right;
+}
+
+.logo {
+    margin-right: 15px;
+}   
+
+.wlt_img {  
+    width: 50px;
+}   
+
+.amount {   
+    font-size: 35px;
+}
+
+.blnc_title {   
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.btn-group {    
+    margin: 20px 0 ;
+}
+
+.btn {    
+    margin: 8px;
+    border-radius: 20px !important;
+    font-size: 12px
+}
+
+.txn-history{
+    text-align: left;
+}
+
+.txn-list { 
+    background-color: #fff;
+    padding: 12px 10px ;
+    color: #777;
+    font-size: 14px;
+    margin: 7px 0 ;
+}
+
+.debit-amount { 
+    /* color: red ; */
+    float: right;
+
+}
+
+.credit-amount {    
+    /* color: green ; */
+    float: right;
+}
+
+.footer-menu {  
+    margin: 20px -20px 0;
+    bottom: 0 ;
+    border-top: 1px solid #ccc;
+    padding: 10px 10px 0;
+}
+
+.foot-title {   
+    font-size: 12px;
+    
+}
+
+.deposit {
+  color: green;
+}
+
+.withdraw {
+  color: red;
+}
